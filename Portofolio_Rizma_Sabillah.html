@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Rizma Sabillah</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f3e0e0; /* Warna pastel */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f8caca; /* Warna latar header */
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #ff6b6b; /* Warna teks judul */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .project {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 20px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="data:image/jpeg;base64,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" alt="Foto Rizma Sabillah">
+        <h1>RIZMA SABILLAH</h1>
+        <p>Tumanggal RT 07/02, Pengadegan, Purbalingga, Jawa Tengah</p>
+        <p>0877-2968-3292</p>
+        <p>rizmasabillah02@gmail.com</p>
+    </header>
+
+    <div class="container">
+        <h2>TENTANG SAYA</h2>
+        <p>Saya adalah seorang mahasiswa Teknik Informatika yang minat dalam pengembangan Web Fullstack Developer. Saya senang menciptakan pengalaman online yang interaktif dan responsif. Saya memiliki pengalaman dalam HTML, CSS, dan JavaScript.</p>
+        <br>
+        <h2>TUGAS YANG PERNAH DIKERJAKAN</h2>
+        <div class="project">
+            <h3>Formulir Data Pasien</h3>
+            <p>Proyek ini adalah pembuatan halaman web yang digunakan untuk mengumpulkan data pasien rumah sakit melalui formulir online.</p>
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Data Pasien Rumah Sakit</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    text-align: left;
+                }
+                table {
+                    border-collapse: collapse;
+                    width: 100%;
+                    margin-top: 20px;
+                }
+                th {
+                    border: 1px solid #dddddd;
+                    text-align: center;
+                    padding: 8px;
+                }
+                
+                td {
+                    border: 1px solid #dddddd;
+                    text-align: left;
+                    padding: 8px;
+                }
+                th {
+                    background-color: #a1cff0;
+                }
+                form {
+                    margin-top: 20px;
+                }
+            </style>
+            </head>
+            <body>
+                <h1>Data Pasien Rumah Sakit</h1>
+                <form id="patientForm">
+                    <label for="id">ID Pasien:</label><br>
+                    <input type="text" placeholder="ID Pasien" id="id" required><br><br>
+                    <label for="name">Nama Pasien:</label><br>
+                    <input type="text" placeholder="Nama Pasien" id="name" required><br><br>
+                    <label for="address">Alamat:</label><br>
+                    <input type="text" placeholder="Alamat" id="address" required><br><br>
+                    <label for="disease">Penyakit:</label><br>
+                    <input type="text" placeholder="Penyakit" id="disease" required><br><br>
+                    <label for="roomNumber">Nomor Ruang:</label><br>
+                    <input type="text" placeholder="Nomor Ruang" id="roomNumber" required><br><br>
+                    <label for="bpjs">BPJS:</label><br>
+                    <select id="bpjs">
+                        <option value="Tidak Menggunakan">Tidak Menggunakan</option>
+                        <option value="Kelas I">Kelas I</option>
+                        <option value="Kelas II">Kelas II</option>
+                        <option value="Kelas III">Kelas III</option>
+                    </select><br><br>
+                    <label for="dateIn">Tanggal Masuk:</label><br>
+                    <input type="date" placeholder="Tanggal Masuk" id="dateIn" required><br><br>
+                    <label for="dateOut">Tanggal Keluar:</label><br>
+                    <input type="date" placeholder="Tanggal Keluar" id="dateOut"><br><br>
+                    <button type="submit">Tambah Pasien</button><br><br>
+                </form>
+                <button id="searchButton">Cari</button>
+                <table>
+                    <tr>
+                        <th>ID Pasien</th>
+                        <th>Nama Pasien</th>
+                        <th>Alamat</th>
+                        <th>Penyakit</th>
+                        <th>Nomor Ruang</th>
+                        <th>BPJS</th>
+                        <th>Tanggal Masuk</th>
+                        <th>Tanggal Keluar</th>
+                        <th>Aksi</th>
+                    </tr>
+                    <tbody id="patientTable"></tbody>
+                </table>
+                <script>
+                    const patients = [];
+            
+                    function renderTable() {
+                        const table = document.getElementById("patientTable");
+                        table.innerHTML = "";
+            
+                        patients.forEach((patient, index) => {
+                            const row = table.insertRow();
+                            row.innerHTML = `
+                                <td>${patient.id}</td>
+                                <td>${patient.name}</td>
+                                <td>${patient.address}</td>
+                                <td>${patient.disease}</td>
+                                <td>${patient.roomNumber}</td>
+                                <td>${patient.bpjs}</td>
+                                <td>${patient.dateIn}</td>
+                                <td>${patient.dateOut}</td>
+                                <td>
+                                    <button onclick="editPatient(${index})">Edit</button><br><br>
+                                    <button onclick="deletePatient(${index})">Delete</button>
+                                </td>
+                            `;
+                        });
+                    }
+            
+                    function addPatient(event) {
+                        event.preventDefault();
+                        const id = document.getElementById("id").value;
+                        const name = document.getElementById("name").value;
+                        const address = document.getElementById("address").value;
+                        const disease = document.getElementById("disease").value;
+                        const roomNumber = document.getElementById("roomNumber").value;
+                        const bpjs = document.getElementById("bpjs").value;
+                        const dateIn = document.getElementById("dateIn").value;
+                        const dateOut = document.getElementById("dateOut").value || " - ";
+                        patients.push({
+                            id, name, address, disease, roomNumber, bpjs, dateIn, dateOut
+                        });
+                        renderTable();
+                        document.getElementById("patientForm").reset();
+                    }
+            
+                    function editPatient(index) {
+                        const patient = patients[index];
+                        document.getElementById("id").value = patient.id;
+                        document.getElementById("name").value = patient.name;
+                        document.getElementById("address").value = patient.address;
+                        document.getElementById("disease").value = patient.disease;
+                        document.getElementById("roomNumber").value = patient.roomNumber;
+                        document.getElementById("bpjs").value = patient.bpjs;
+                        document.getElementById("dateIn").value = patient.dateIn;
+                        document.getElementById("dateOut").value = patient.dateOut === " - " ? "" : patient.dateOut;
+                        patients.splice(index, 1);
+                        renderTable();
+                    }
+            
+                    function deletePatient(index) {
+                        if (confirm("Apakah Anda yakin ingin menghapus data pasien ini?")) {
+                    patients.splice(index, 1);
+                    renderTable();
+                }
+            }
+            
+            
+                    function confirmDelete(index) {
+                        const confirmation = confirm("Apakah Anda yakin ingin menghapus data pasien?");
+                        if (confirmation) {
+                            deletePatient(index);
+                        }
+                    }
+            
+                    function searchPatient() {
+                        const searchValue = prompt("Masukkan ID Pasien yang dicari:");
+                        const patient = patients.find(p => p.id === searchValue);
+                        if (patient) {
+                            alert(`Nama Pasien: ${patient.name}\nAlamat: ${patient.address}\nPenyakit: ${patient.disease}\nNo. Ruang: ${patient.roomNumber}\nBPJS: ${patient.bpjs}\nTanggal Masuk: ${patient.dateIn}\nTanggal Keluar: ${patient.dateOut}`);
+                        } else {
+                            alert("Pasien tidak ditemukan.");
+                        }
+                    }
+            
+                    document.getElementById("patientForm").addEventListener("submit", addPatient);
+                    document.getElementById("searchButton").addEventListener("click", searchPatient);
+                </script>
+            </body>
+            </html>
+        </div>
+
+        <div class="project">
+            <h3>Daftar Nilai Siswa</h3>
+            <p> Saya membuat halaman web yang digunakan untuk mencatat dan menampilkan nilai siswa. Guru dapat menginputkan nilai siswa dan melihat laporan nilai secara online.</p>
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+</style>
+<title>Daftar Nilai Siswa</title>
+</head>
+<body>
+<h1><ins><center>Daftar Nilai Siswa</center></ins></h1>
+<table border="2" align="center">
+  <tr>
+    <td rowspan="2" bgcolor="yellow">Nama Siswa</td>
+    <td colspan="3" bgcolor="yellow">Nilai</td>
+    <td rowspan="2" bgcolor="yellow">Aksi</td>
+  </tr>
+  <tr>
+    <td bgcolor="pink">Matematika</td>
+    <td bgcolor="pink">Bahasa Indonesia</td>
+    <td bgcolor="pink">Bahasa Inggris</td>
+  </tr>
+  <tr>
+    <td>Raka</td>
+    <td id="nilai-mtk-1">85</td>
+    <td id="nilai-bi-1">70</td>
+    <td id="nilai-eng-1">90</td>
+    <td><button onclick="ubahNilai(1)">Ubah Nilai</button></td>
+  </tr>
+  <tr>
+    <td>Safira</td>
+    <td id="nilai-mtk-2">92</td>
+    <td id="nilai-bi-2">75</td>
+    <td id="nilai-eng-2">88</td>
+    <td><button onclick="ubahNilai(2)">Ubah Nilai</button></td>
+  </tr>
+  <tr>
+    <td>Natasya</td>
+    <td id="nilai-mtk-3">90</td>
+    <td id="nilai-bi-3">85</td>
+    <td id="nilai-eng-3">88</td>
+    <td><button onclick="ubahNilai(3)">Ubah Nilai</button></td>
+  </tr>
+
+</table>
+
+<script>
+  function ubahNilai(id) {
+    const nilaiMtk = prompt(`Masukkan nilai Matematika untuk siswa ${id}:`, document.getElementById(`nilai-mtk-${id}`).textContent);
+    const nilaiBi = prompt(`Masukkan nilai Bahasa Indonesia untuk siswa ${id}:`, document.getElementById(`nilai-bi-${id}`).textContent);
+    const nilaiEng = prompt(`Masukkan nilai Bahasa Inggris untuk siswa ${id}:`, document.getElementById(`nilai-eng-${id}`).textContent);
+    
+    if (nilaiMtk !== null && nilaiBi !== null && nilaiEng !== null) {
+      document.getElementById(`nilai-mtk-${id}`).textContent = nilaiMtk;
+      document.getElementById(`nilai-bi-${id}`).textContent = nilaiBi;
+      document.getElementById(`nilai-eng-${id}`).textContent = nilaiEng;
+    }
+  }
+</script>
+</body>
+</html>
+
+        </div>
+
+        <div class="project">
+            <h3>Cek Bilangan Ganjil/Genap</h3>
+            <p> Saya mengembangkan aplikasi sederhana yang memungkinkan pengguna untuk memasukkan angka dan menguji apakah angka tersebut ganjil atau genap. Hasilnya akan ditampilkan secara interaktif.</p>
+            <<!DOCTYPE html>
+            <html>
+            <head>
+                <title>Aplikasi Web Sederhana</title>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        text-align: center;
+                    }
+                    #output {
+                        font-size: 24px;
+                        margin-top: 20px;
+                    }
+                </style>
+            </head>
+            <body>
+                <h1>Cek Bilangan Ganjil/Genap</h1>
+                
+                <p>Masukkan angka:</p>
+                <input type="number" id="inputNumber"><br><br>
+                <button id="checkButton">Cek</button>
+            
+                <div id="output"></div>
+            
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script>
+                    // Variabel
+                    var inputValue;
+                    
+                    // Fungsi untuk mengecek bilangan genap atau ganjil
+                    function cekBilangan() {
+                        inputValue = parseInt($("#inputNumber").val());
+            
+                        // Blok kondisional
+                        if (!isNaN(inputValue)) {
+                            if (inputValue % 2 === 0) {
+                                $("#output").text(inputValue + " adalah bilangan genap.");
+                            } else {
+                                $("#output").text(inputValue + " adalah bilangan ganjil.");
+                            }
+                        } else {
+                            $("#output").text("Masukkan angka valid.");
+                        }
+                    }
+                    
+                    // jQuery event
+                    $("#checkButton").click(function() {
+                        // Memanggil fungsi cekBilangan
+                        cekBilangan();
+                    });
+                    
+                    // jQuery + DOM
+                    $(document).ready(function() {
+                        // Mengubah warna latar belakang body saat dokumen siap
+                        $("body").css("background-color", "#f0f0f0");
+                    });
+                </script>
+            </body>
+            </html>            
+        </div>
+
+        <div class="project">
+            <h3>Formulir Pendaftaran</h3>
+            <p> Proyek ini adalah pembuatan halaman web formulir pendaftaran online untuk sebuah acara.</p>
+            <html>
+    <head>
+        <title>Formulir Pendaftaran</title>
+    </head>
+    <style>
+        td {
+                    border: none;
+                    text-align: left;
+                    padding: 8px;
+        }
+    </style>
+    <body>
+        <center>
+        <h1 style=text><ins>FORMULIR PENDAFTARAN</ins></h1>
+        </center>
+        <form>
+            <table>
+                <tr>
+                    <td>Nama Lengkap:</td>
+                    <td>
+                        <input type="text" id="namalengkap" name="namalengkap">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tempat Lahir:</td>
+                    <td>
+                        <input type="text" id="tlahir" name="tlahir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir:</td>
+                    <td>
+                        <input type="date" id="tgllahir" name="tgllahir">
+                    </td>
+                </tr>
+                <td>Jenis Kelamin:</td>
+                <td>
+                    <input type="radio" name="gender">Laki-Laki
+                    <input type="radio" name="gender">Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat:</td>
+                <td>
+                    <textarea type="text" id="alamat" name="alamat"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>
+                    <input type="text" id="email" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td>No HP:</td>
+                <td>
+                    <input type="text" id="nohp" name="nohp">
+                </td>
+            </tr>
+            <tr>
+            <td>Kota:</td>
+                <td>
+                    <select>
+                        <option>*****Pilih Kota*****</option>
+                        <option>Bogor</option>
+                        <option>Cilacap</option>
+                        <option>Depok</option>
+                        <option>Jakarta</option>
+                        <option>Kebumen</option>
+                        <option>Purbalingga</option>
+                        <option>Salatiga</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Simpan">
+                    <input type="reset" value="Batal">
+                </td>
+            </tr>
+            </table>
+        </form>
+    </body>
+</html>
+        </div>
+    </div>
+</body>
+</html>
